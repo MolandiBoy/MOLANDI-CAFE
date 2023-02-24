@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: arial, Helvetica, sans-serif;
+    background-color: rgb(163, 120, 120);
+}
+
+.header {
+    width: 100%;
+    color: chocolate;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+nav {
+    width: 40%;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.bev-imgs {
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.drinks {
+    font-weight: bold;
+    font-size: 100px;
+    font-size: large;
+    color: brown;
+}

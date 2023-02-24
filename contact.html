@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
+    <title>CONTACT US</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>CONTACT US</h1>
+        </div>
+        
+        <button class="btn_nav01">
+                <a href="index.html">HOME</a>
+        </button>
+        
+        <button class="btn_nav02">
+            <a href="menu.html">MENU</a>
+        </button>
+        <button class="btn_nav03">
+            <a href="shop.html">SHOP</a>
+        </button>
+        
+        <button class="btn_nav04">
+            <a href="about.html">ABOUT US</a>
+        </button>
+
+    </header>
+    
+    <main>
+    <div class="image-backGround"></div>
+    <article>
+        <p>CONTACT INFORMATION</p>
+
+            <form action="POST" action="form.aspx">
+                <fieldset>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input type="FirstName" name="firstname" id="firtname" placeholder="Thomas" autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                        <label for="LastName">Last Name:</label>
+                        <input type="LastNAme" name="LastName" id="LastName" placeholder="Moraka" autocomplete="on" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="+27 234 5678" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </p>
+
+                    <p>
+                        <label for="LastName"></label>
+                    </p>
+                    <fieldset>
+                        <legend>SEND ME A NOTE</legend>
+                        <label for="comment">COMMENT:
+                            <textarea name="comments" id="" cols="50" rows="10" maxlength="1000"></textarea>
+                        </label>
+                </fieldset>
+                <br>
+                <button  class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
+            </form>
+        </article>
+        </main>
+
+
+
+
+<!-- TEMPLATE -->
+</body>
+</html>		
