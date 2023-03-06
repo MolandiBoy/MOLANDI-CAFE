@@ -10,67 +10,69 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>CONTACT US</h1>
-        </div>
-        
-        <button class="btn_nav01">
-                <a href="index.html">HOME</a>
-        </button>
-        
-        <button class="btn_nav02">
-            <a href="menu.html">MENU</a>
-        </button>
-        <button class="btn_nav03">
-            <a href="shop.html">SHOP</a>
-        </button>
-        
-        <button class="btn_nav04">
-            <a href="about.html">ABOUT US</a>
-        </button>
+    <div class="container">
+        <div class="image-backGround">
+            <header class="header">
+                <div class="logo">
+                    <h1>CONTACT US</h1>
+                </div>
+                <div class="menubar">
+                    <a href="index.html" class="btn_nav">
+                        <div>HOME</div>
+                    </a>
+                
+                    <a href="menu.html" class="btn_nav">
+                        <div>SHOP</div>
+                    </a>
+                
+                    <a href="about.html" class="btn_nav">
+                        <div>MENU</div>
+                    </a>
+                
+                    <a href="contact.html" class="btn_nav">
+                        <div>ABOUT US</div>
+                    </a>
+                </div>
+            </header>
+            
+         <main>
+             <form class="form-container" action="POST" action="form.aspx">
+                 <fieldset class="form01">
+                        <div>CONTACT INFORMATION</div>
+                        
+                        <p>
+                            <label class="label" for="firstName" >FIRST NAME:</label>
+                            <input class="input-box" type="FirstName" name="firstname" id="firstName" placeholder="Thomas" autocomplete="on" required autofocus>
+                        </p>
 
-    </header>
-    
-    <main>
-    <div class="image-backGround"></div>
-    <article>
-        <p>CONTACT INFORMATION</p>
+                        <p>
+                            <label class="label" for="LastName">LAST NAME:</label>
+                            <input class="input-box" type="LastNAme" name="LastName" id="LastName" placeholder="Moraka" autocomplete="on" required>
+                        </p>
 
-            <form action="POST" action="form.aspx">
-                <fieldset>
-                    <p>
-                        <label for="firstName">First Name:</label>
-                        <input type="FirstName" name="firstname" id="firtname" placeholder="Thomas" autocomplete="on" required autofocus>
-                    </p>
-                    <p>
-                        <label for="LastName">Last Name:</label>
-                        <input type="LastNAme" name="LastName" id="LastName" placeholder="Moraka" autocomplete="on" required>
-                    </p>
+                        <p>
+                            <label class="label" for="LastName">ADDRESS</label>
+                            <input class="input-box" type="tel" name="address" id="address" placeholder="address" autocomplete="on" required>
+                        </p>
 
-                    <p>
-                        <label for="phone">Phone:</label>
-                        <input type="tel" name="phone" id="phone" placeholder="+27 234 5678" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                    </p>
+                        <p>
+                            <label class="label" for="phone">PHONE:</label>
+                            <input class="input-box" type="tel" name="phone" id="phone" placeholder="+27 234 5678" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                    </fieldset> 
 
-                    <p>
-                        <label for="LastName"></label>
-                    </p>
-                    <fieldset>
-                        <legend>SEND ME A NOTE</legend>
-                        <label for="comment">COMMENT:
-                            <textarea name="comments" id="" cols="50" rows="10" maxlength="1000"></textarea>
+                    <fieldset class="form02">
+                        <legend>NOTE</legend>
+                        
+                        <label class="label" for="comment">
+                            <textarea name="comments" id="" cols="90" rows="30" maxlength="1000"></textarea>
                         </label>
-                </fieldset>
-                <br>
-                <button  class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
+
+                    </fieldset>
+                    <button  class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
             </form>
-        </article>
+                
         </main>
-
-
-
-
-<!-- TEMPLATE -->
+    </div>
 </body>
 </html>		
