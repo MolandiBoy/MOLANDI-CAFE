@@ -43,17 +43,19 @@ a {
 .header{
     width: 100%;
     color: azure;
-    margin-right: auto;
-    margin-left: auto;
     padding: 50px;
     overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-self: center;
 }
 
 .header .logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 10px;
-    padding-bottom: 400px;
     font-weight: bolder;
 }
 
@@ -68,6 +70,10 @@ a {
     text-align: center;
     font-style: italic;
     font-size: 35px;
+}
+
+.header .logo .icon {
+    font-size: 32px;
 }
 
 .image-1{

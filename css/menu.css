@@ -201,7 +201,7 @@
     transition: background-color 0.3s, color 0.4s;
 }
 
-.menu-list:hover {
+.menu-list a:hover {
     background-color: sl(16, 100%, 45%);
     opacity: 0.8;
 }
@@ -258,7 +258,34 @@
 }
 
 .content{
-    border: solid black;
     width: 850px;
+    padding: 32px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .bev {
     display: none;
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.content .meals {
+
+}
+
+.content .pizza {
+
+}
+
+.content .salads {
+
+}
+
+.content .desert {
+
 }
