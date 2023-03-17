@@ -39,6 +39,98 @@ p {
 a {
     text-decoration: none;
 }
+/* BUTTONS NAVs*/
+
+.btn_nav {
+    width: 150px;
+    background-color: white;
+    position: relative;
+    background: rgb(156, 116, 13);
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    padding-inline: 60px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_nav:hover {
+    background: hsl(16, 100%, 45%);
+    opacity: 0.8;
+}
+
+.btn_nav:active {
+    background: hsl(16, 100%, 40%);
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+}
+
+.btn_nav::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+
+    border: solid 6px transparent;
+    border-right: solid 6px hsl(16, 100%, 30%);
+    border-left-width: 0;
+    background: none;
+    top: 0;
+    left: -6px;
+}
+
+.btn_nav::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+
+    border: solid 6px transparent;
+    border-top: solid 6px hsl(16, 100%, 30%);
+    border-bottom-width: 0;
+    right: 0;
+    bottom: -6px;
+}
+
+.btn_nav:active::after {
+    border: solid 3px transparent;
+    border-right: solid 3px hsl(16, 100%, 30%);
+    border-left-width: 0;
+    left: -3px;
+}
+
+.btn_nav:active::after {
+    border: solid 3px transparent;
+    border-top: solid 3px hsl(16, 100%, 30%);
+    border-bottom-width: 0;
+    bottom: -3px;
+}
+
+.image-backGround{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: burlywood;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(185, 100, 100, 0.4)),
+    url("/images//fast-food-restaurant.jpg") no-repeat;
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+    display: grid;
+/*     gap: 50px;
+ */    justify-content: space-between;
+    padding-left: 5px;
+}
 
 .header{
     width: 100%;
@@ -76,23 +168,17 @@ a {
     font-size: 32px;
 }
 
-.image-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: burlywood;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(185, 100, 100, 0.4)),
-    url("/images//fast-food-restaurant.jpg") no-repeat;
-    background-position: top;
-    background-size: cover;
+.header .menubar {
+    display: flex;
+    gap: 20px;
     align-items: center;
-    display: grid;
-    gap: 50px;
-    justify-content: space-between;
-    padding-left: 5px;
+    text-align: center;
+}
+
+.content {
+    border: solid black;
+    width: 850px;
+    display: none;
 }
 
 .cta {
@@ -135,7 +221,7 @@ a {
 
 .dish-content {
     display: grid;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -173,12 +259,12 @@ a {
 }
 
 .dish03 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/images//News-Cafe-Tacos-20-600x450.jpg') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/images//primi-dish.jpeg') no-repeat;
     background-size: cover;
 }
 
 .dish04 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/images//images.jpeg') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/images//pi.jpeg') no-repeat;
     background-size: cover;
 }
 

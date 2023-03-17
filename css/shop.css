@@ -12,8 +12,10 @@ body {
 
 main {
     height: 800px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
+    padding: 20px;
 }
 
 h1 {
@@ -175,4 +177,267 @@ a {
     border: solid black;
     width: 850px;
     display: none;
+}
+
+main .product-card {
+    background-color: white;
+    height: 450px;
+    box-shadow: black 0 3px 3px 0;
+    border-radius: 10px;
+}
+
+main .product-card .product-card-head-01 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/pork-ribs.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-02 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/beef0.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-03 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/lamb.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-04 {
+background-color: burlywood;
+    height: 70%;
+    background: url(/images/breakfast.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-05 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/BURGERS/burger03.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-06 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/SEA-FOOD/sea-food07.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-07 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/P.P.T/tacos00.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-08 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/chicken01.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-09 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/P.P.T/pizza08.jpeg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-10 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//BURGERS/burger-kids.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-11 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/meat-platter01.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-12 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images/fruit-platter01.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-13 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//buffet06.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-14 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//buffet01.jpg ) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-15 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//buffet00.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-16 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//salads.jpeg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-17 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//DESERTS/shakshuk00.jpeg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-18 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//DESERTS/rosanne.jpeg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-19 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//DESERTS/cake08.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-20 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//DESERTS/ice-cake.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-21 {
+    background-color: burlywood;
+    height: 70%;
+    background: url(/images//DESERTS/delux.jpg) no-repeat;
+    background-size: cover;
+}
+
+main .product-card .product-card-head-22 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//DESERTS/delux000.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-23 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//DESERTS/flat-cake00.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-24 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//DESERTS/delux01.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-25 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/kiwi-juice.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-26 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/cold.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-27 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/coffee00.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-28 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/rooibos.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-29 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/amarula.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-30 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/marula-cream.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-31 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/tropical.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-head-32 {
+  background-color: burlywood;
+  height: 70%;
+  background: url(/images//\ BEVERAGES/wine01.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .product-card .product-card-body {
+    padding: 10px; 
+    display: grid;
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .product-card .product-card-body p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button {
+    padding: 10px;
+    background-color: rgb(156, 116, 13);
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all;
+    animation: ease-in-out;
+    animation-duration: 5000ms;
+    
+}
+
+.button:hover {
+    background: hsl(16, 100%, 45%);
+    opacity: 0.6;
 }

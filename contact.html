@@ -21,56 +21,59 @@
                         <div>HOME</div>
                     </a>
                 
-                    <a href="menu.html" class="btn_nav">
+                    <a href="shop.html" class="btn_nav">
                         <div>SHOP</div>
                     </a>
                 
-                    <a href="about.html" class="btn_nav">
+                    <a href="menu.html" class="btn_nav">
                         <div>MENU</div>
                     </a>
                 
-                    <a href="contact.html" class="btn_nav">
+                    <a href="about.html" class="btn_nav">
                         <div>ABOUT US</div>
                     </a>
                 </div>
             </header>
             
          <main>
-             <form class="form-container" action="POST" action="form.aspx">
-                 <fieldset class="form01">
-                        <div>CONTACT INFORMATION</div>
-                        
-                        <p>
-                            <label class="label" for="firstName" >FIRST NAME:</label>
-                            <input class="input-box" type="FirstName" name="firstname" id="firstName" placeholder="Thomas" autocomplete="on" required autofocus>
-                        </p>
+          <form class="form-container" action="POST" action="form.aspx">
+          <fieldset class="form01">
+            <div class="info-head">CONTACT INFORMATION</div>
+              <p>
+                <label class="label" for="firstName" >
+									FIRST NAME:
+                </label>
+                <input class="input-box" type="FirstName" name="firstname" id="firstName" placeholder="Thomas" autocomplete="on" required autofocus>
+              </p>
+              <p>
+                <label class="label" for="LastName">
+                  LAST NAME:
+                </label>
+                <input class="input-box" type="LastNAme" name="LastName" id="LastName" placeholder="Moraka" autocomplete="on" required>
+              </p>
+							<p>
+                <label class="label" for="LastName">
+                  ADDRESS
+                </label>
+                <input class="input-box" type="tel" name="address" id="address" placeholder="address" autocomplete="on" required>
+              </p>
+							<p>
+                <label class="label" for="phone">
+                  PHONE:
+                </label>
+                <input class="input-box" type="tel" name="phone" id="phone" placeholder="+27 234 5678" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+              </p>
+          </fieldset> 
 
-                        <p>
-                            <label class="label" for="LastName">LAST NAME:</label>
-                            <input class="input-box" type="LastNAme" name="LastName" id="LastName" placeholder="Moraka" autocomplete="on" required>
-                        </p>
-
-                        <p>
-                            <label class="label" for="LastName">ADDRESS</label>
-                            <input class="input-box" type="tel" name="address" id="address" placeholder="address" autocomplete="on" required>
-                        </p>
-
-                        <p>
-                            <label class="label" for="phone">PHONE:</label>
-                            <input class="input-box" type="tel" name="phone" id="phone" placeholder="+27 234 5678" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                        </p>
-                    </fieldset> 
-
-                    <fieldset class="form02">
-                        <legend>NOTE</legend>
-                        
-                        <label class="label" for="comment">
-                            <textarea name="comments" id="" cols="90" rows="30" maxlength="1000">
-                            </textarea>
-                        </label>
-
-                    </fieldset>
-                    <button  class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
+          <fieldset class="form02">
+            <legend class="info-head">NOTE</legend>
+            <label class="note-box" for="comment">
+            <textarea name="comments" id="" cols="90" rows="30" maxlength="1000">
+            </textarea>
+            </label>
+          </fieldset>
+          
+					<button  class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
             </form>
                 
         </main>

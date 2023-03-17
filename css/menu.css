@@ -266,26 +266,36 @@
 }
 
 .content .bev {
-    display: none;
-    font-size: 42px;
-    color: white;
-    font-weight: bold;
+  display: none;
+  font-size: 42px;
+  color: white;
+  font-weight: bold;
 }
 
-
-
 .content .meals {
-
+  display: none;
+	font-size: 42px;
+	color: white;
+	font-weight: bold;
 }
 
 .content .pizza {
-
+	display: none;
+	font-size: 42px;
+	color: white;
+	font-weight: bold;
 }
 
 .content .salads {
-
+	display: none;
+	font-size: 42px;
+	color: white;
+	font-weight: bold;
 }
 
 .content .desert {
-
+	display: none;
+	font-size: 42px;
+	color: white;
+	font-weight: bold;
 }
